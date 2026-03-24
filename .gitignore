@@ -8,3 +8,6 @@
 out
 gen
 /osrm-data
+/nginx
+/docker-compose.yml
+routeplanner/
