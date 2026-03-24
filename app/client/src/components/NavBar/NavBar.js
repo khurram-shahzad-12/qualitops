@@ -21,7 +21,7 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import SettingsIcon from '@mui/icons-material/Settings';
 import { styled } from '@mui/material/styles';
 import Profile from "../Profile/Profile";
-import logo from "../../resources/spicedirect_logo.png";
+import logo from "../../resources/qualitop.jpg";
 import styles from "./styles.module.css";
 import { useAuth0 } from "@auth0/auth0-react";
 import Cookies from 'universal-cookie';

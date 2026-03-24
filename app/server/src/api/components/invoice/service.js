@@ -294,15 +294,15 @@ const emailInvoiceToCustomer = async (invoice, invoicePdfBuffer, res) => {
     if(invoiceCustomer.email.trim().length > 0) {
         const addressee = invoiceCustomer.legal_entity.trim().length > 0 ? invoiceCustomer.legal_entity : invoiceCustomer.customer_name;
         transporter.sendMail({
-            from: `"SpiceDirectWholesale Sales" <${env.EMAIL_ADDRESS}>`, // sender address
+            from: `"Qualitops" <${env.EMAIL_ADDRESS}>`, // sender address
             to: env.NODE_ENV === 'development' ? 'omera8@hotmail.com' : invoiceCustomer.email, // list of receivers
             subject: "Order created", // Subject line
             text: `Greetings ${addressee}, please find attached the invoice for your recent order.`, // plain text body
             html: getInvoiceEmailBody(addressee), // html body
             attachments: [
                 {
-                    filename: "0.png",
-                    path: "./public/0.png",
+                    filename: "qualitop.jpg",
+                    path: "./public/qualitop.jpg",
                     cid: 'company_logo'
                 },
                 {

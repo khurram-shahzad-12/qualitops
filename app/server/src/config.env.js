@@ -4,7 +4,7 @@ const moment = require('moment');
 const APP_ENV = process.env.APP_ENV || 'production'
 
 const parseBoolean = (value, defaultValue = false) => value ? ['1', 'true', 'yes'].includes(value.toString().trim().toLowerCase()) : defaultValue;
-const configFile = APP_ENV === 'development' ? 'config/dev_invoice_config.json' : 'config/invoice_config.json';
+const configFile = APP_ENV === 'production' ? 'config/qualitops_invoice_config.json' : 'config/invoice_config.json';
 const invoice_config_data = JSON.parse(fs.readFileSync(configFile));
 
 const getInvoiceConfigForDate = invoiceDate => {

@@ -59,7 +59,7 @@ const printCustomerGroupItemsList = async (customerGroupID) =>  {
                 },
                 // {text: '', width: '*'},
                 {width:'40%',stack: [
-                        {image: 'public/0.png', width: 140, height: 75},
+                        {image: 'public/qualitop.jpg', width: 140, height: 75},
                     ]
                 }
             ]

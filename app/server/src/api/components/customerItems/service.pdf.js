@@ -60,7 +60,7 @@ const printCustomerItemsList = async (customerID, reprint, query) =>  {
             },{
                 width: '40%',
                 stack: [
-                    {image: 'public/0.png', width: 140, height: 75, alignment: 'right'},
+                    {image: 'public/qualitop.jpg', width: 140, height: 75, alignment: 'right'},
                     {
                         text: getLatestInvoiceConfig().addressLines.join("\n"),
                         alignment: 'right',

@@ -58,7 +58,7 @@ const ChatDialog = ({
             sx={{ '& .MuiDialog-paper': { height: '80vh' } }}
         >
             <DialogTitle>
-                {process.env.REACT_APP_AUTH0_DOMAIN.startsWith("development-spice-direct")?'SDW Chat':'Spice Direct Wholesale Chat'}
+                {process.env.REACT_APP_AUTH0_DOMAIN.startsWith("development-spice-direct")?'SDW Chat':'Qualitops Chat'}
             </DialogTitle>
             <DialogContent sx={{ p: 0, display: 'flex', height: '100%', flexDirection: 'column' }}>
                 <Box sx={{ display: 'flex', height: '100%', overflow: 'hidden' }}>

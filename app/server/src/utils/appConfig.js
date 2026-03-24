@@ -9,11 +9,11 @@ const appConfig = {
         address: 'Office No 19, Floor 2, Al Arif Shipping Building, Dubai UAE',
     },
     production: {
-        companyName: 'SPICE DIRECT WHOLESALE',
-        logo: 'public/0.png',
+        companyName: 'Qualitops UK Ltd',
+        logo: 'public/qualitop.jpg',
         email: 'orders@spicedirectwholesale.co.uk',
         phone: '0141 530 3120',
-        address: '225 Bernard Street, Glasgow, G403NX',
+        address: 'Simon Scotland Yard, Hardwick Industrial Estate, Kings Lynn, PE30 4JF, UK',
     }
 }
 const currentConfig = appConfig[env.APP_ENV]
