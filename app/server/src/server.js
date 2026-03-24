@@ -253,7 +253,7 @@ const socketOnConnection = (socket) => {
 const socketOptions = {
     pingTimeout: 120000, pingInterval: 30000, connectTimeout: 45000, transport: ['websocket', 'polling'],
 }
-
+console.log(process.env.NODE_ENV)
 if (env.useTLS) {
     const credentials = {
         key: fs.readFileSync(env.TLS_KEY, 'utf8'),

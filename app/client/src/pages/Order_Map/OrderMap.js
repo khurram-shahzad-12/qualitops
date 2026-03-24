@@ -619,7 +619,8 @@ const OrderMap = () => {
           </TabList>
         </Grid>
         {value !== "1" && (
-          <Grid item xs={12} sm={6} md={1.5}><Button variant="contained" sx={{ height: 50 }} onClick={generateOrderRoute} disabled={sendingData || isDisAbled}>{sendingData ? "Please Wait" : "Generate Route"}</Button></Grid>)}
+          // <Grid item xs={12} sm={6} md={1.5}><Button variant="contained" sx={{ height: 50 }} onClick={generateOrderRoute} disabled={sendingData || isDisAbled}>{sendingData ? "Please Wait" : "Generate Route"}</Button></Grid>)}
+          <Grid item xs={12} sm={6} md={1.5}><Button variant="contained" sx={{ height: 50 }} onClick={generateOrderRoute} disabled >{sendingData ? "Please Wait" : "Generate Route"}</Button></Grid>)}
         {(value === "2" || value === "5") && (
           <Grid item xs={12} sm={6} md={1.4}><Button variant="contained" onClick={saveDragChanges} sx={{ height: 50 }}>Save Changes</Button></Grid>)}
         <Grid item xs={12} sm={6} md={value === "2" ? 0.8 : 1.2}><Button variant="contained" onClick={handleReload} fullWidth sx={{ height: 50 }}>Reload</Button></Grid>
