@@ -11,8 +11,8 @@ const appConfig = {
     production: {
         companyName: 'Qualitops UK Ltd',
         logo: 'public/qualitop.jpg',
-        email: 'orders@spicedirectwholesale.co.uk',
-        phone: '0141 530 3120',
+        email: 'Admin@qualitops.co.uk',
+        phone: '01553 772 522',
         address: 'Simon Scotland Yard, Hardwick Industrial Estate, Kings Lynn, PE30 4JF, UK',
     }
 }
